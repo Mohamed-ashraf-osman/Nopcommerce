@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+    <parameter name="browserType" value="Firefox Driver"/>
+    <test name="Regression Test in Firefox">
+        <classes>
+            <class name="tests.MyAccountTest">
+            </class>
+            <class name="tests.HoverTest">
+                <methods>
+                    <include name = "HoverOverComputers"/>
+                    <include name = "HoverOverElectronics"/>
+                    <include name = "HoverOverApparel"/>
+                </methods>
+            </class>
+            <class name="tests.BuildComputerWishListTest">
+            </class>
+            <class name="tests.ShoppingCartTest">
+            </class>
+            <class name="tests.EmailPageTest">
+                <methods>
+                    <include name = "RegisterNewUser"/>
+                    <include name = "NavigateToLoginPage"/>
+                    <include name = "NavigateToEmailFriend"/>
+                </methods>
+            </class>
+            <class name="tests.FollowUsTest">
+            </class>
+        </classes>
+    </test>
+</suite>
