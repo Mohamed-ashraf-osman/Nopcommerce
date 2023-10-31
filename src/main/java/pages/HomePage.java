@@ -8,13 +8,14 @@ public class HomePage extends BasePage {
     private final By searchField = By.id("small-searchterms");
     private final By searchBtn = By.xpath("//button[@type='submit']");
     private final By buildYourOwnComputerLink = By.linkText("Build your own computer");
+    private final By loginBtn = By.className("ico-login");
 
     public RegisterPage NavigateToRegisterPage(){
-        ClickBtn("Register");
+      ****  ClickBtn("Register");
         return new RegisterPage(driver);}
 
     public LoginPage NavigateToLoginPage(){
-        ClickBtn("Log in");
+        driver.findElement(loginBtn).click();
         return new LoginPage(driver);}
     public HomePage SearchProduct (String productName){
         driver.findElement(searchField).sendKeys(productName);

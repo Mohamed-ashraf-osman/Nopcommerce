@@ -11,15 +11,15 @@ public class MyAccountTest extends BaseTest  {
     HomePage loginPage;
     MyAccountPage myAccountPage;
     String currentTime = String.valueOf(System.currentTimeMillis());
-    String registerJsonPath = "Utils/registerData.json";
-    String changePassPath = "Utils/changePasswordData.json";
+    String registerJsonPath = "C:\\Users\\pc\\IdeaProjects\\NopCommerceDemo\\src\\main\\java\\Utils\\registerData.json";
+    String changePassPath = "C:\\Users\\pc\\IdeaProjects\\NopCommerceDemo\\src\\main\\java\\Utils\\changePasswordData.json";
 
     @Test ()
     public void TestChangePassword() throws IOException, ParseException {
         myAccountPage = homePage.NavigateToRegisterPage()
                 .FillMaleFields(JsonReader.TestJson.getJson(registerJsonPath, "FirstName"),
                         JsonReader.TestJson.getJson(registerJsonPath, "LastName"),
-                        "10", "7", "1990",
+                        "4", "8", "1995",
                         JsonReader.TestJson.getJson(registerJsonPath, "Email") + currentTime + "@gmail.com",
                         JsonReader.TestJson.getJson(registerJsonPath, "Company"),
                         JsonReader.TestJson.getJson(registerJsonPath, "Password"),

@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="575b221b-03b8-4fb4-b3a8-bcd738262af5" name="Changes" comment="">
+    <list default="true" id="575b221b-03b8-4fb4-b3a8-bcd738262af5" name="Changes" comment="eidt on testng xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +54,7 @@
       <recent name="C:\Users\pc\IdeaProjects\NopCommerceDemo\src\main\java\Utils" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/pc/IdeaProjects/NopCommerceDemo/testng.xml">
+  <component name="RunManager" selected="TestNG.MyAccountTest">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="NopCommereceDemo" />
       <method v="2">
@@ -76,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="webdriver_widebot" />
       <extension name="coverage">
         <pattern>
@@ -85,7 +87,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.HoverTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.MyAccountTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -147,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MyAccountTest" />
         <item itemvalue="TestNG.C:/Users/pc/IdeaProjects/NopCommerceDemo/testng.xml" />
         <item itemvalue="TestNG.ProductTest" />
         <item itemvalue="TestNG.MyAccountTest.TestChangePassword" />
         <item itemvalue="TestNG.RegisterTest" />
-        <item itemvalue="TestNG.HoverTest" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +166,14 @@
       <option name="presentableId" value="Default" />
       <updated>1698667169370</updated>
     </task>
+    <task id="LOCAL-00001" summary="eidt on testng xml">
+      <created>1698762472847</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698762472847</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,5 +198,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="eidt on testng xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="eidt on testng xml" />
   </component>
 </project>

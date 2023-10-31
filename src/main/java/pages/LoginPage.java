@@ -8,7 +8,7 @@ public class LoginPage extends BasePage {
     private final By welcomeMessage = By.xpath("//div[@class=\"topic-block-title\"]//h2");
     private final By emailField = By.id("Email");
     private final By passwordfield = By.className("password");
-    private final By loginBtn = By.xpath("//button[@class=\"button-1 login-button\"]");
+    private final By loginBtn = By.className("ico-login");
     private final By loginPageMsg = By.xpath("//div[@class='topic-block-title']//h2");
     private final By myAccountLink = By.className("ico-account");
     private final By logoutBtn = By.className("ico-logout");
